@@ -1,0 +1,95 @@
+body {
+  background-color: thistle;
+  margin: 0;
+  padding: 0;
+}
+.container1 {
+  display: inline-block;
+  justify-content: center;
+  margin: 30px 30px 30px 30px;
+}
+.container2 {
+  display: inline-block;
+  justify-content: center;
+  margin: 30px 30px 30px 30px;
+}
+.card {
+  margin: 30px 30px 30px 30px;
+}
+.card-body {
+  flex: 1 1 150px;
+  flex: 0 1 150px;
+  margin: 30px;
+}
+h1 {
+  padding-top: 30px;
+  font-family: cursive;
+  font-size: 35px;
+  text-align: center;
+}
+h3 {
+  font-family: fantasy;
+  font-size: 15px;
+}
+h5 {
+  padding: 10px 0 10px 0;
+  font-family: cursive;
+  font-size: 35px;
+}
+li a {
+  font-family: cursive;
+  font-size: 20px;
+  color: white;
+}
+a:hover {
+  font-family: fantasy;
+  color: purple;
+}
+p {
+  margin-top: 30px;
+  font-family: cursive;
+  font-size: 20px;
+  color: black;
+}
+.container {
+  display: table;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: chartreuse;
+  }
+  .container1 {
+    width: 40px;
+    height: 50px;
+  }
+  .container2 {
+    width: 40px;
+    height: 50px;
+  }
+
+  .card {
+    /* justify-content: center;
+    display: center;
+    float: center; */
+    width: 40px;
+    height: 100px;
+  }
+  p {
+    font-size: small;
+    padding: 20px 10px 20px 10px;
+  }
+}
+@media screen and (min-width: 460px) {
+  .card {
+    display: inline-block;
+    justify-content: center;
+    float: center;
+    width: 300px;
+    height: 350px;
+  }
+}

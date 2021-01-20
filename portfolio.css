@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: plum;
+}
+
+/* .container {
+  width: 500px;
+  margin: 50px auto;
+} */
+a {
+  padding: 70px 50px 70px 50px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+}
+a:hover {
+  font-family: fantasy;
+  text-decoration: none;
+  color: purple;
+}
+a:active {
+  color: springgreen;
+}
+
+h5 {
+  font-family: cursive;
+}
+
+h1 {
+  box-sizing: border-box;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+h2 {
+  padding-top: 10px;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+img {
+  float: right;
+  width: 60%;
+}
+p {
+  padding: 20px 0 20px 0;
+  font-family: cursive;
+  font-size: 20px;
+}
