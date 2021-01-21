@@ -1,0 +1,85 @@
+body {
+  background-image: url(./images/Images/roman-synkevych-vXInUOv1n84-unsplash.jpg);
+  margin: 0;
+  padding: 0;
+}
+.header {
+  padding: 20px 0 10px 0;
+  text-align: center;
+  font-family: fantasy;
+  color: white;
+  font-size: 10px;
+}
+.navbar-brand {
+  font-family: cursive;
+  padding-left: 20px;
+}
+.img-style1 {
+  float: right;
+  width: 250px;
+  height: auto;
+  padding: 10px 0px 10px 10px;
+}
+
+.card {
+  display: inline-block;
+  justify-content: center;
+  margin: 30px 30px 30px 30px;
+}
+.card-body {
+  margin: 30px;
+}
+h1 {
+  padding-top: 30px;
+  font-family: cursive;
+  font-size: 35px;
+  text-align: center;
+}
+h6 {
+  font-family: fantasy;
+  font-size: 15px;
+}
+h5 {
+  padding: 10px 0 10px 0;
+  font-family: cursive;
+  font-size: 35px;
+}
+li a {
+  font-family: cursive;
+  font-size: 20px;
+  color: white;
+}
+a:hover {
+  font-family: fantasy;
+  color: purple;
+}
+p {
+  margin-top: 30px;
+  font-family: cursive;
+  font-size: 20px;
+  color: black;
+}
+.container {
+  display: table;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-family: cursive;
+  color: white;
+  text-align: center;
+}
+footer {
+  font-family: cursive;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width 739px;) {
+  .img-style1 {
+    min-width: auto;
+  }
+}
+@-ms-viewport {
+  width: 500;
+}
