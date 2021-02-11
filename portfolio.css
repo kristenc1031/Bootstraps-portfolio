@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: plum;
+  background-color: black;
 }
 
 /* .container {
@@ -25,29 +25,37 @@ a:active {
 
 h5 {
   font-family: cursive;
+  font-size: 30px;
 }
 
 h1 {
+  padding: 40px 0 20px 0;
+  color: #fff076;
   box-sizing: border-box;
   text-align: center;
   font-family: fantasy;
-  font-size: 20px;
+  font-size: 70px;
 }
 .container {
   text-align: center;
 }
 h2 {
-  padding-top: 10px;
+  color: #f0f7ee;
+  padding: 30px;
   text-align: center;
   font-family: fantasy;
-  font-size: 20px;
+  font-size: 40px;
 }
-
+h3 {
+  color: white;
+  padding-top: 20px;
+}
 img {
   float: right;
   width: 60%;
 }
 p {
+  color: #87bba2;
   padding: 20px 0 20px 0;
   font-family: cursive;
   font-size: 20px;
