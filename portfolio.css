@@ -3,13 +3,16 @@ body {
   padding: 0;
   background-color: black;
 }
+.card-body {
+  content: center;
+}
 
 /* .container {
   width: 500px;
   margin: 50px auto;
 } */
 a {
-  padding: 70px 50px 70px 50px;
+  /* padding: 70px 50px 70px 50px; */
   text-align: center;
   font-family: cursive;
   font-size: 20px;
